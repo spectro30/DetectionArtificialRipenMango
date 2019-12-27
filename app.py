@@ -38,7 +38,6 @@ def backgroundSubstraction(img):
     edges = cv2.erode(edges, None)
     #Ends Here
     
-
     #Find Max Contour
     maxContourArea = 0
     contour_info = []
